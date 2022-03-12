@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+body {
+  background-image: url("blob-scene-haikei.svg");
+  /* background-color: rgb(251, 133, 0); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Spectral", serif;
+  font-size: 0.938rem;
+  background-attachment: fixed;
+  margin: auto;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: x-large;
+}
+footer {
+  background-color: rgba(20, 33, 61, 0.7);
+  font-family: "Montserrat", sans-serif;
+  color: #e6f2f9;
+}
+
+footer h4 {
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+footer img {
+  border-radius: 50%;
+  padding: 0 1rem 0 1rem;
+}
+.side-customize {
+  font-family: "Montserrat", sans-serif;
+  color: #e6f2f9;
+}
+.side-customize h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #e6f2f9;
+}
+.flex-column a {
+  font-family: "Montserrat", sans-serif;
+  color: #fca311;
+}
+
+.about {
+  font-family: "Kalam", cursive;
+  font-size: large;
+  text-align: justify;
+  padding: 1rem;
+}
+.about h4 {
+  color: #fca311;
+  text-align: center;
+}
+
+hr {
+  color: #ffffff;
+}
+
+h3 {
+  color: aliceblue;
+}
+/* Begin Sidebar */
+.roundImage {
+  border-radius: 50%;
+}
+
+.mycol-1 {
+  /* background-color: #14213d; */
+  border-right-style: dashed;
+  border-right-color: #fca311;
+  border-right-width: 15%;
+}
+
+/* End Of sidebar */
+
+.custom-header h2 {
+  color: aliceblue;
+  font-family: "Monoton", cursive;
+  letter-spacing: 0.813rem;
+  font-weight: 0.313rem;
+  font-size: 3.75rem;
+  /* height: 10vh; */
+}
+
+os {
+  color: aliceblue;
+}
+.custom-quote {
+  padding: 1.563rem;
+  border-radius: 0.938rem;
+  background-color: aliceblue;
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+}
+b {
+  color: #f7a01e;
+}
+/* Begin Quote Animation */
+q::before,
+q::after {
+  animation: dancing 1s linear infinite;
+  display: inline-block;
+  transform: rotate(13deg);
+}
+
+@keyframes dancing {
+  0% {
+    transform: rotate(13deg) scale(2);
+  }
+
+  25% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-13deg) scale(2);
+  }
+
+  75% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(13deg) scale(2);
+  }
+}
+q {
+  quotes: "“" "”";
+}
+/* End Quote Animation */
+.myCard {
+  border-radius: 0.7rem;
+  /* box-shadow: rgb(0 0 0 / 46%) -11px 6px 23px 14px; */
+  transition: 0.2s;
+  background-image: linear-gradient(to right bottom, #fca311, #f1c255);
+  color: azure;
+}
+
+.myCard p,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #14213d;
+}
+
+.myCard p {
+  font-family: "Montserrat", sans-serif;
+  color: #14213d;
+}
+
+.myCard:not(:first-child) {
+  margin-left: -5rem;
+  box-shadow: rgb(0 0 0 / 62%) -40px -1px 9px -2px;
+}
+.myprogress {
+  background-color: aliceblue;
+  border-radius: 1rem;
+  padding: 10px;
+  /* color: black; */
+}
+.bar-bg-bb {
+  background-color: rgb(20, 33, 61);
+}
+.bar-bg-bo {
+  background-color: #fca311;
+}
+.myCard:hover {
+  transform: rotate(3deg);
+  transform-origin: top right;
+}
+
+/* The code below allows me to push the adjacent siblings of the selected card in a specific direction */
+.myCard:hover ~ .myCard {
+  transform: translateX(5rem);
+}
