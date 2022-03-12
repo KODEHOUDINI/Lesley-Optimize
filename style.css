@@ -36,8 +36,9 @@ footer img {
   font-family: "Montserrat", sans-serif;
   color: #e6f2f9;
 }
-.side-customize h4 {
+.side-customize h3 {
   font-family: "Montserrat", sans-serif;
+  font-weight: 100;
   color: #e6f2f9;
 }
 .flex-column a {
@@ -50,6 +51,10 @@ footer img {
   font-size: large;
   text-align: center;
   padding: 1rem;
+}
+.about img {
+  width: 11rem;
+  height: 11rem;
 }
 .about h4 {
   color: #fca311;
