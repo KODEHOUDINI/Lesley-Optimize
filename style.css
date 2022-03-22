@@ -11,6 +11,7 @@ body {
   font-size: 0.938rem;
   background-attachment: fixed;
   margin: auto;
+  overflow-x: hidden;
 }
 
 h3 {
