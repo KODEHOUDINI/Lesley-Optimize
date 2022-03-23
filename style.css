@@ -19,18 +19,21 @@ h3 {
   font-size: x-large;
 }
 footer {
-  background-color: rgba(20, 33, 61, 0.7);
+  background-color: rgb(240, 248, 255);
   font-family: "Montserrat", sans-serif;
-  color: #e6f2f9;
+  color: #fca311;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
 }
 
 footer h4 {
-  color: aliceblue;
+  color: #14213d;
   text-decoration: underline;
 }
 
-footer img {
-  border-radius: 50%;
+.brands img {
+  width: 4rem;
+  height: 4rem;
   padding: 0 1rem 0 1rem;
 }
 .side-customize {
@@ -152,9 +155,8 @@ h4 {
   color: #14213d;
 }
 
-.myCard p {
-  font-family: "Montserrat", sans-serif;
-  color: #14213d;
+.myCard img {
+  border-radius: 0.5rem;
 }
 
 .myCard:not(:first-child) {
@@ -163,7 +165,8 @@ h4 {
 }
 .myprogress {
   background-color: aliceblue;
-  border-radius: 1rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
   padding: 10px;
   /* color: black; */
 }
